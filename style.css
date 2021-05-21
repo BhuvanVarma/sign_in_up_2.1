@@ -1,0 +1,178 @@
+*{
+	padding: 0; 
+	margin: 0;
+	box-sizing: border-box;
+	overflow-y: hidden;
+  	overflow-x: hidden;
+  	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background-color: #eeebdd;
+}
+
+.main{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	height: 100vh;
+	width: 100vw;
+	font-size: 1rem;
+}
+
+.h1{
+	font-size: 3rem;
+	padding-bottom: 20px;
+}
+
+.label-size{
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+}
+
+label{
+	margin-bottom: 10px;
+}
+
+.input-box{
+	margin: 15px 0 15px 0;
+	height: 40px;
+	width: 250px;
+	border-radius: 25px;
+	border: 1px solid #000000;;
+	outline: none;
+	font-size: 18px;
+	padding:0 10px 0 10px;
+
+}
+
+.pass-con{
+	margin: 15px 0 15px 0;
+	height: 40px;
+	width: 250px;
+	border-radius: 25px;
+	border: 1px solid #000000;;
+	outline: none;
+	font-size: 18px;
+	padding:0 10px 0 10px; 
+	background-color: #ffffff;
+	display: flex;
+}
+
+.pass-box{
+	width: 220px;
+	border: none;
+	font-size: 18px;
+	outline: none;
+}
+
+.login-btn{
+	font-size: 1.5rem;
+	background-color: dodgerblue;
+	border: none;
+	border-radius: 25px;
+	color: #FFFFFF;
+	width: 250px;
+	height: 40px;
+}
+
+p .login-btn-text{
+	outline: none;
+	background-color: dodgerblue;
+}
+
+.signup{
+	padding-top: 15px;
+}
+
+.pattern{
+	resize: horizontal;
+	overflow: hidden;
+	width: 1000px;
+	height: auto;
+	z-index: 2;
+}
+
+.form{
+	width: 300px;
+	height: 390px;
+	margin: 10px;
+}
+
+.main-1{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.logo{
+	color: dodgerblue;
+	font-size: 2.5rem;
+	position: absolute;
+	height: 60px;
+	width: 300px;
+	padding: 5px;
+}
+
+.logo-1{
+	color: #000000;
+}
+  
+.link{
+	color: dodgerblue;
+	text-decoration: none;
+}
+
+#show{
+	display: none;
+}
+
+.eye{
+	padding: 6px;
+	z-index: 1;
+}
+
+.far{
+	padding: 4px;
+}
+
+@media only screen and (max-device-width: 700px) {
+	 .main{
+	 	grid-template-columns: none;
+	 }
+
+	 .main-1{
+	 	position: absolute;
+	 	margin: 0 auto;
+	 	height: 100vh;
+	 	width: 100vw;
+	 }
+
+	 .form{
+	 	background: rgba( 255, 255, 255, 0.15 );
+		box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+		backdrop-filter: blur( 8.0px );
+		-webkit-backdrop-filter: blur( 8.0px );
+	 	border-radius: 25px;
+	 	margin: auto;
+	 	padding: 25px;
+	 	width: 320px;
+		height: 430px;
+	 }
+}
+
+@media only screen and (max-device-width: 370px) {
+	 .form{
+	 	background: rgba( 255, 255, 255, 0.15 );
+		box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+		backdrop-filter: blur( 8.0px );
+		-webkit-backdrop-filter: blur( 8.0px );
+	 	border-radius: 25px;
+	 	margin: auto;
+	 	padding: 25px;
+	 	width: 300px;
+		height: 430px;
+	 }
+
+	 
+}
